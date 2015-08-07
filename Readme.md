@@ -1,6 +1,6 @@
 # ELM-STARTER!
 
-![A logo]()
+![A logo](https://cloud.githubusercontent.com/assets/1227109/9126376/c2e91d9a-3c69-11e5-86fd-f8119155447c.png)
 
 1. Get it
 2. Install Elm
