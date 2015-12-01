@@ -1,7 +1,7 @@
-module App.Main where
+module Main where
 
 import Html exposing (div, text, Html)
-import StartApp
+import StartApp.Simple as StartApp
 import Signal exposing (Address)
 
 -- # Main
