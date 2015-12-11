@@ -37,6 +37,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect')
 
   // Default task(s).
-  grunt.registerTask('default', ['connect', 'watch:elm'])
+  grunt.registerTask('default', ['elm', 'connect', 'watch:elm'])
 
 };
