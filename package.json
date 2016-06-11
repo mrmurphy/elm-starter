@@ -23,6 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "2.12.8",
+    "elm": "0.17.0",
     "nodemon": "1.9.2",
     "npm-run-all": "2.1.0"
   }
