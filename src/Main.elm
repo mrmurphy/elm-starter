@@ -45,8 +45,8 @@ type Msg
 
 
 update : Msg -> Model -> Model
-update action model =
-    case action of
+update msg model =
+    case msg of
         Inc ->
             model + 1
 
