@@ -3,15 +3,14 @@ module Main exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (class)
 import Html.Events exposing (onClick)
-import Html.App exposing (beginnerProgram)
 
 
 -- # Main
 
 
-main : Program Never
+main : Program Never Model Msg
 main =
-    beginnerProgram
+    Html.beginnerProgram
         { model = model
         , view = view
         , update = update
